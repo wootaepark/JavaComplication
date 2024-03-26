@@ -2,7 +2,7 @@ import java.util.*;
 public class GetSum2 {
 	// 백준 11660번, 시간 초과 코드
 	// 일반적인 for문 이용 (시간복잡도 이용)
-	// dp 로 풀어보기
+	
 	
 	static int getSum(int arr[][],int sRow, int sCol, int eRow, int eCol) {
 		

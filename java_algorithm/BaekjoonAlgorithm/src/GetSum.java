@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
-public class AnswerOfGetSum2 {
-	// 백준 11660 문제의 dp 알고리즘 정답
+public class GetSum {
+	
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -27,7 +27,7 @@ public class AnswerOfGetSum2 {
 	
 		
 		for(int i=1;i<size+1;i++) {
-			for(int j=1;j<size+1;j++) {
+			for(int j=1;j<size+1;j++) { // dp 알고리즘 사용
 				sum[i][j] = sum[i-1][j] + sum[i][j-1] - sum[i-1][j-1] + arr[i][j];
 			
 			}
