@@ -3,7 +3,8 @@ public class PriorityQueueEx {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Queue pq = new PriorityQueue();
+		Queue<Integer> pq = new PriorityQueue<>();
+		// <> 를 통해 데이터의 형식의 일관성을 유지해주는 것이 좋다.
 		
 		
 		
