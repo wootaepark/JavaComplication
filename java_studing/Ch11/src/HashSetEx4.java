@@ -12,6 +12,8 @@ public class HashSetEx4 {
 		
 		System.out.println(set);
 
+		
+
 	}
 
 
