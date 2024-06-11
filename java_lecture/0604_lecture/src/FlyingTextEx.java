@@ -25,7 +25,8 @@ public class FlyingTextEx extends JFrame {
 		c.addMouseListener( new MouseAdapter( ) { 
 			public void mouseClicked(MouseEvent e) {
 				// 마우스가 클릭된 컴포넌트
-				Component c = (Component)e.getSource(); 									c.setFocusable(true);
+				Component c = (Component)e.getSource();
+				c.setFocusable(true);
 				c.requestFocus(); // 컴포넌트에게 포커스 설정
 			}	
 		} );
