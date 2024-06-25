@@ -33,7 +33,7 @@ public class SumOfProducts {
 }
 
 /*
- * 첫 번째로 푼 코드는 너무 복잡하다. (그리고 어쨰선지 모르지만 오답이다.)
+ * 첫 번째로 푼 코드는 너무 복잡하다. (그리고 어쨰선지 모르지만 오답이다. => 아마 메모리 제한 때문일듯
  * 
  * public class SumOfProducts {
 	
