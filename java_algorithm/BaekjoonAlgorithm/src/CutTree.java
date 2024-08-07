@@ -15,10 +15,10 @@ public class CutTree {
 
         // 이진 탐색을 위한 변수 초기화
         int low = 0;
-        int high = Arrays.stream(woods).max().getAsInt();
+        int high = Arrays.stream(woods).max().getAsInt();//최고 높이 정보
         int result = 0;
 
-        while (low <= high) {
+        while (low <= high) { // mid 의 low , high 즉, 상한과 하한을 좁혀가면서 구하는 방식 
             int mid = (low + high) / 2;
             long sum = 0;
 
