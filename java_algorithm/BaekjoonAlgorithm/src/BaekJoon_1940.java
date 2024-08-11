@@ -5,6 +5,8 @@ public class BaekJoon_1940 {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		
+		int N = scanner.nextInt();
+		
 		
 		
 		scanner.close();
