@@ -4,6 +4,8 @@ public class Pr_46 {
 
 	static class Solution {
 		public static int solution(String s) {
+			
+			// 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/81301
 			int answer = 0;
 			String[] number = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
