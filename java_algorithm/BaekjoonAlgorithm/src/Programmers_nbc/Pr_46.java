@@ -11,7 +11,7 @@ public class Pr_46 {
 
 			for (int i = 0; i < number.length; i++) {
 				s = s.replace(number[i], String.valueOf(i));
-				//number[i] 와 일치하는 것을 모드 String.valueOf(i) 값으로 변경한다.
+				//number[i] 와 일치하는 것을 모두 String.valueOf(i) 값으로 변경한다.
 				//replace 와 replaceAll 의 결과가 동일하다
 			}
 			answer = Integer.parseInt(s);
