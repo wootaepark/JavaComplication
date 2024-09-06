@@ -49,10 +49,22 @@ public class GoodNumber {
 
 		int count = 0;
 
-		for (int i = 0; i < arr.length; i++) { // 입력 값이 음의 정수인 경우도 고려할 필요 있음
+		for (int i = 0; i < arr.length; i++) { // 입력 값이 음의 정수와 0인 경우도 고려할 필요 있음
 			int index1 = 0, index2 = arr.length - 1;
+			
 			while(index1 < index2) {
-
+				
+				
+				// 동일 요소 사용 금지 조건
+				// 자기자신과 0의 합은 서로 다른 수가 아닌 자기 자신 값을 포함하므로 배제한다.
+				if(index1 == i) { // 음수 + 0 인경우 방지
+					index1 ++;
+					continue;
+				} 
+				if(index2 == i) {// 0 + 양수 인경우 방지
+					index2--;
+					continue;
+				}
 				
 				
 				
