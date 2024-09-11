@@ -3,6 +3,8 @@ package Programmers_nbc;
 import java.util.*;
 
 public class ScaleProblem {
+	
+	// https://www.acmicpc.net/problem/2437
 
 	public static void main(String[] args) {
 
