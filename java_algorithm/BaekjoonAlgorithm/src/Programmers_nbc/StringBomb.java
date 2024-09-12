@@ -10,7 +10,7 @@ public class StringBomb {
 		Stack<Character> stack = new Stack<>();
 		
 		// stack.size() : 현재 스택 요소의 개수
-		// stack.capac;ity(); 스택 최대 크기 (동적으로 확장되거나 축소됨)
+		// stack.capacity(); 스택 최대 크기 (동적으로 확장되거나 축소됨)
 		
 
 		for (int i = 0; i < c1.length; i++) {
