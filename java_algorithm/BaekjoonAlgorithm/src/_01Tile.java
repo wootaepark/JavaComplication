@@ -1,10 +1,9 @@
 import java.util.*;
-import java.io.*;
 
 // 백준 1904 문제 : 01타일 // 추후 풀이 예정
 public class _01Tile {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args){
 		Scanner scanner = new Scanner(System.in);
 		int N = scanner.nextInt();
 		
