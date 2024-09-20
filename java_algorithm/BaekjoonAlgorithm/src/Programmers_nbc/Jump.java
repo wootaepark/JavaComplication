@@ -15,7 +15,7 @@ public class Jump {
 		int N = Integer.parseInt(st.nextToken());
 
 		int[][] arr = new int[N][N]; // 입력 저장할 배열
-		int[][] way = new int[N][N]; // 각 자리수마다 도착 가능한 방법의 수
+		long[][] way = new long[N][N]; // 각 자리수마다 도착 가능한 방법의 수 (넉넉하게 잡아야함)
 
 		for (int i = 0; i < arr.length; i++) {
 
@@ -34,7 +34,7 @@ public class Jump {
 				if (i == N - 1 && j == N - 1)
 					break; // 마지막 칸 종료
 
-				if (arr[i][j] > 0) {
+				if (arr[i][j] > 0) { // way[i][j] >0 조건으로 변경해도 정답
 					if (i + arr[i][j] < N) {
 						way[i + arr[i][j]][j] += way[i][j];
 					}
@@ -47,10 +47,6 @@ public class Jump {
 			}
 		}
 
-		/*
-		 * for (int i = 0; i < N; i++) { for (int j = 0; j < N; j++) {
-		 * System.out.print(way[i][j] + " "); } System.out.println(); }
-		 */
 
 		System.out.println(way[N - 1][N - 1]);
 	}
