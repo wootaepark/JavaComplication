@@ -34,7 +34,8 @@ public class Jump {
 				if (i == N - 1 && j == N - 1)
 					break; // 마지막 칸 종료
 
-				if (arr[i][j] > 0) { // way[i][j] >0 조건으로 변경해도 정답
+				if (arr[i][j] > 0) { // way[i][j] >0 조건으로 변경해도 정답 (차피 못가는 경우라 그런듯)
+					// 논리적으로는 arr 이 맞는듯 아래 식이 way 값을 통해 업데이트 되기 때문
 					if (i + arr[i][j] < N) {
 						way[i + arr[i][j]][j] += way[i][j];
 					}
