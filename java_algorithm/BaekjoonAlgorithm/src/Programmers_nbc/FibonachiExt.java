@@ -24,7 +24,7 @@ public class FibonachiExt {
 
 		n = Math.abs(n);
 
-		int[] Fibo = new int[Math.max(n + 1, 2)];
+		int[] Fibo = new int[Math.max(n + 1, 2)]; // 이렇게 안하고 한번에 할당 시 메모리 초과
 
 		Fibo[0] = 0;
 		Fibo[1] = 1;
