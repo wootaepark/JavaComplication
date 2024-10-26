@@ -19,6 +19,7 @@ public class Pr_72 {
 			}
 
 			// callings 배열을 순회하면서 호출된 플레이어의 순서를 업데이트
+			
 			for (String calling : callings) {
 				int currentRank = nameToRank.get(calling); // 현재 호출된 플레이어의 순위
 				int newRank = currentRank - 1; // 한 칸 앞으로 가야 함
