@@ -29,7 +29,6 @@ public class Pr_85 {
 	}
 
 	public static void main(String[] args) {
-
 		int[] elements = { 7, 9, 1, 1, 4 };
 		System.out.println(Solution.solution(elements));
 	}
